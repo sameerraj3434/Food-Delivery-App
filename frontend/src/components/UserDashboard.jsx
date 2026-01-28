@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Nav from './Nav.JSX'
+import Nav from './Nav.jsx'
 import { categories } from '../category'
-import CategoryCard from './CategoryCard'
+import CategoryCard from './CategoryCard.jsx'
 import { FaCircleChevronLeft } from "react-icons/fa6";
 import { FaCircleChevronRight } from "react-icons/fa6";
 import { useSelector } from 'react-redux';
-import FoodCard from './FoodCard';
+import FoodCard from './FoodCard.jsx';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { serverUrl } from '../App';
